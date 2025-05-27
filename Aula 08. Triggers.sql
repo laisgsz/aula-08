@@ -36,6 +36,7 @@ SELECT ID, count(*) AS qtd_courses FROM takes
 GROUP BY ID
 ORDER BY qtd_courses;
 
+
 -- O estudante selecionado será '30299'
 SELECT * FROM takes t WHERE t.ID = '30299' ORDER BY t.course_id;
 
